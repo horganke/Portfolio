@@ -1,0 +1,79 @@
+@import "compass/css3";
+@include font-face("Bemio", font-files("fonts/bemio.otf"));
+
+.gallery {
+	h2{
+		color: white;
+		font-size: 24px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	p{
+		color: white;
+		font-family: arial;
+		font-size: 16px;
+		padding-right: 9em;
+		padding-left: 9em;
+	}
+	figure{
+
+		margin: 0px 5px 10px 5px;
+		height: 300px;
+		border: solid #eeeeee 5px;
+		box-shadow: 0 0 8px #000000;
+		display: block;
+		position: relative;
+		overflow: hidden;
+
+		figcaption{
+
+			background-color: rgba(0,0,0,0.90);
+			opacity: 0;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			-webkit-transition: opacity 0.3s linear;
+			-moz-transition: opacity 0.3s linear;
+			transition: opacity 0.3s linear;
+
+			text-shadow: #000 1px 1px 0;
+			color: #ccc;
+			text-align: left;
+			padding: 4em 2em;
+			text-size: 12px;
+			color: white;
+			font-size: 16px;
+
+			h3{
+			font-weight: bold;
+			}
+
+			&:hover{
+				display: block;
+    			opacity: 1.0;
+			}
+
+		}
+
+		img{
+
+		    margin:0;
+		    padding:0;
+		  	width: 100%;
+		}
+	}	
+
+	div{
+
+	    margin:0;
+	    padding: 0;
+	}
+}
+
+.bottom{
+
+    margin-top: 5em;
+}

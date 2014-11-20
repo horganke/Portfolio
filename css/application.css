@@ -1,0 +1,368 @@
+/* line 1, ../sass/components/_masthead.scss */
+#masthead {
+  background: #BD92CF;
+}
+
+/* line 5, ../sass/components/_masthead.scss */
+#circle {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* line 10, ../sass/components/_masthead.scss */
+#circle .spin {
+  -webkit-transform: rotateZ(2160deg);
+  -moz-transform: rotateZ(2160deg);
+  transform: rotateZ(2160deg);
+}
+/* line 16, ../sass/components/_masthead.scss */
+#circle img {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 0 60px 30px #fff;
+  -webkit-transition: -webkit-transform 1.0s ease-out;
+  -moz-transition: -moz-transform 1.0s ease-out;
+  transition: transform 1.0s ease-out;
+}
+
+/* line 2, ../sass/components/_hero.scss */
+#hero {
+  background: #593C64;
+}
+/* line 6, ../sass/components/_hero.scss */
+#hero h2 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+/* line 14, ../sass/components/_hero.scss */
+#hero iframe {
+  padding-left: 5px;
+  zoom: 1.4;
+  margin-bottom: 2px;
+}
+/* line 22, ../sass/components/_hero.scss */
+#hero img {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 4em;
+}
+
+@font-face {
+  font-family: "Bemio";
+  src: url('/stylesheets/fonts/fonts/bemio.otf') format('opentype');
+}
+
+/* line 4, ../sass/components/_about.scss */
+#about {
+  background: #D0C8D3;
+  padding: 5em 3em;
+}
+/* line 9, ../sass/components/_about.scss */
+#about p {
+  margin: 0;
+  text-align: left;
+  color: #482955;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 18, ../sass/components/_about.scss */
+#about .social {
+  background: #482955;
+  height: 245px;
+}
+/* line 21, ../sass/components/_about.scss */
+#about .social ul {
+  list-style-type: none;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+/* line 27, ../sass/components/_about.scss */
+#about .social ul li {
+  display: inline;
+}
+/* line 29, ../sass/components/_about.scss */
+#about .social ul li i {
+  font-size: 8em;
+  margin: 0 8px;
+  display: inline-block;
+  color: #D0C8D3;
+  position: relative;
+  top: 75px;
+}
+/* line 37, ../sass/components/_about.scss */
+#about .social ul li i:hover {
+  color: white;
+  transition: all 0.3s ease-in;
+  text-shadow: 1px 0px 20px white;
+}
+/* line 48, ../sass/components/_about.scss */
+#about h2 {
+  margin-bottom: 15px;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 58, ../sass/components/_about.scss */
+#about .bottom p {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Bemio";
+  src: url('/stylesheets/fonts/fonts/bemio.otf') format('opentype');
+}
+
+/* line 5, ../sass/components/_grid.scss */
+.gallery h2 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 12, ../sass/components/_grid.scss */
+.gallery p {
+  color: white;
+  font-family: arial;
+  font-size: 16px;
+  padding-right: 9em;
+  padding-left: 9em;
+}
+/* line 19, ../sass/components/_grid.scss */
+.gallery figure {
+  margin: 0px 5px 10px 5px;
+  height: 300px;
+  border: solid #eeeeee 5px;
+  box-shadow: 0 0 8px #000000;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+/* line 29, ../sass/components/_grid.scss */
+.gallery figure figcaption {
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+  text-shadow: #000 1px 1px 0;
+  color: #ccc;
+  text-align: left;
+  padding: 4em 2em;
+  text-size: 12px;
+  color: white;
+  font-size: 16px;
+}
+/* line 50, ../sass/components/_grid.scss */
+.gallery figure figcaption h3 {
+  font-weight: bold;
+}
+/* line 54, ../sass/components/_grid.scss */
+.gallery figure figcaption:hover {
+  display: block;
+  opacity: 1.0;
+}
+/* line 61, ../sass/components/_grid.scss */
+.gallery figure img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 69, ../sass/components/_grid.scss */
+.gallery div {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 76, ../sass/components/_grid.scss */
+.bottom {
+  margin-top: 5em;
+}
+
+/* line 1, ../sass/components/_base.scss */
+body {
+  background: #7F1780;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+/* line 8, ../sass/components/_base.scss */
+h1 {
+  font-family: bemio;
+  font-size: 3.5em;
+  padding-left: 8px;
+}
+
+/* line 10, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -32px;
+}
+/* line 18, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root #root_footer {
+  height: 32px;
+}
+
+/* line 20, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 32px;
+}
+
+/* line 4, ../sass/components/_footer.scss */
+#footer {
+  background: #e7e7e7;
+}
+
+/* line 2, ../sass/components/_contact.scss */
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+/* line 8, ../sass/components/_contact.scss */
+form {
+  margin: 0 auto;
+  width: 459px;
+}
+
+/* line 13, ../sass/components/_contact.scss */
+input, textarea, file {
+  width: 339px;
+  height: 27px;
+  background-color: #efefef;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #dedede;
+  padding: 10px;
+  margin-top: 3px;
+  font-size: 0.9em;
+  color: #3a3a3a;
+}
+
+/* line 27, ../sass/components/_contact.scss */
+input:focus, textarea:focus {
+  outline: none !important;
+  border: 1px solid #BD92CF;
+  box-shadow: 0 0 10px #482955;
+}
+
+/* line 33, ../sass/components/_contact.scss */
+textarea {
+  height: 213px;
+  background-color: #efefef;
+}
+
+/* line 39, ../sass/components/_contact.scss */
+#submit {
+  width: 127px;
+  height: 48px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* line 47, ../sass/components/_contact.scss */
+#submit:hover {
+  color: #fff;
+  background-color: #482955;
+  opacity: 0.9;
+}
+
+/* line 1, ../sass/components/_nav.scss */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 6, ../sass/components/_nav.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, ../sass/components/_nav.scss */
+.social li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* line 19, ../sass/components/_nav.scss */
+.social a {
+  color: white;
+}
+/* line 23, ../sass/components/_nav.scss */
+.social .facebook-icon {
+  color: #3b5998;
+}
+/* line 27, ../sass/components/_nav.scss */
+.social .github-icon {
+  color: #000;
+}
+/* line 31, ../sass/components/_nav.scss */
+.social .twitter-icon {
+  color: #00aced;
+}
+/* line 35, ../sass/components/_nav.scss */
+.social .instagram-icon {
+  color: #A97D62;
+}
+
+@media (min-width: 767px) {
+  /* line 43, ../sass/components/_nav.scss */
+  .navbar {
+    padding: 10px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  /* line 50, ../sass/components/_nav.scss */
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+/* line 56, ../sass/components/_nav.scss */
+#masthead {
+  padding-top: 145px;
+  padding-bottom: 16px;
+}
+
+/* line 61, ../sass/components/_nav.scss */
+#work {
+  padding-top: 45px;
+}
+
+/* line 65, ../sass/components/_nav.scss */
+#resume {
+  padding-top: 32px;
+}

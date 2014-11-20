@@ -1,0 +1,7 @@
+@import "compass/layout/sticky-footer";
+@include sticky-footer(32px);
+
+#footer{
+
+    background: #e7e7e7;
+}

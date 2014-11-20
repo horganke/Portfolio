@@ -1,0 +1,29 @@
+#masthead{
+    background:#BD92CF;
+}
+
+#circle {
+	
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+	.spin{
+			-webkit-transform: rotateZ(2160deg);
+    		-moz-transform: rotateZ(2160deg);
+    		transform: rotateZ(2160deg);
+    	}
+	
+	img {
+	    margin-top: 20px;
+	    border-radius: 50%;
+	    height: 250px;
+	    width: 250px;
+    	 box-shadow:
+        0 0 60px 30px #fff;
+        -webkit-transition: -webkit-transform 1.0s ease-out;
+    	-moz-transition: -moz-transform 1.0s ease-out;
+    	transition: transform 1.0s ease-out;
+
+	}
+
+}
