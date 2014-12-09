@@ -10,6 +10,8 @@ html {
 
 .social{
 
+    margin-top: 10px;  
+
     li{
         display: inline-block;
         padding-right: 5px;
@@ -41,6 +43,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
+        color: #ecf0f1;
         padding: 10px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -60,8 +63,9 @@ html {
 
 #work {
     padding-top: 45px;
+    padding-bottom: 60px;
 }
 
-#resume {
-    padding-top: 32px;
+#hero {
+    padding-top: 45px;
 }

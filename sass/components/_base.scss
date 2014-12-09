@@ -1,5 +1,8 @@
+@import "compass/css3";
+@include font-face("Bemio", font-files("bemio.otf"));
+
  body {
-  background: #7F1780;
+  background: #4B6AA4;
   text-shadow: 0 1px 1px rgba(255,255,255,0.1);
     text-align: center; 
 } 
@@ -9,4 +12,49 @@ h1{
     font-family: bemio;
     font-size: 3.5em;
     padding-left: 8px;
+    padding-bottom:18px;
+    padding-top:18px
 }
+
+p{
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		padding-right: 9em;
+		padding-left: 9em;
+	}
+
+.title{
+		overflow: hidden;
+		text-align: center;
+
+	h2{
+		color: white;
+		font-size: 24px;
+		text-align: center;
+		font-family: "Oswald", sans-serif;
+		font-weight: 700;
+		letter-spacing: .07em;
+		text-transform: uppercase;
+		  display: inline-block;
+		  padding: 0 15px;
+		  position: relative;
+			&:before,
+			&:after {
+			  background: #ddd;
+			  content: "";
+			  display: block;
+			  height: 1px;
+			  position: absolute;
+			    top: 50%;
+			  width: 400%;
+			}
+			&:before {
+			  right: 100%;
+			}
+			&:after {
+			  left: 100%;
+			}
+		}
+	}
+

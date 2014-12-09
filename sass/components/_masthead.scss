@@ -1,29 +1,70 @@
 #masthead{
-    background:#BD92CF;
+    background: #48A4B1;
 }
+
+#header{
+	
+	background: #4C90BB;
+}
+
 
 #circle {
 	
-	padding-bottom: 20px;
-	padding-top: 20px;
-
-	.spin{
-			-webkit-transform: rotateZ(2160deg);
-    		-moz-transform: rotateZ(2160deg);
-    		transform: rotateZ(2160deg);
-    	}
+	padding-bottom: 36px;
+	padding-top: 4px;
 	
 	img {
-	    margin-top: 20px;
+	    margin-bottom: 20px;
 	    border-radius: 50%;
 	    height: 250px;
 	    width: 250px;
     	 box-shadow:
         0 0 60px 30px #fff;
-        -webkit-transition: -webkit-transform 1.0s ease-out;
-    	-moz-transition: -moz-transform 1.0s ease-out;
-    	transition: transform 1.0s ease-out;
+        -webkit-transition: -webkit-transform 2.5s ease-out;
+    	-moz-transition: -moz-transform 2.5s ease-out;
+    	transition: transform 2.5s ease-out;
 
 	}
 
 }
+
+.spin{
+			-webkit-transform: rotateZ(2880deg);
+    		-moz-transform: rotateZ(2880deg);
+    		transform: rotateZ(2880deg);
+    	}
+
+.tossing{
+		animation-name: tossing;
+		-webkit-animation-name: tossing;	
+
+		animation-duration: 2.5s;	
+		-webkit-animation-duration: 2.5s;
+
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+	}
+
+	@keyframes tossing {
+		0% {
+			transform: rotate(-4deg);	
+		}
+		50% {
+			transform: rotate(4deg);
+		}
+		100% {
+			transform: rotate(-4deg);	
+		}						
+	}
+
+	@-webkit-keyframes tossing {
+		0% {
+			-webkit-transform: rotate(-4deg);	
+		}
+		50% {
+			-webkit-transform: rotate(4deg);
+		}
+		100% {
+			-webkit-transform: rotate(-4deg);	
+		}				
+	}

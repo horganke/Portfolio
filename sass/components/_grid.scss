@@ -1,21 +1,6 @@
 @import "compass/css3";
-@include font-face("Bemio", font-files("fonts/bemio.otf"));
 
 .gallery {
-	h2{
-		color: white;
-		font-size: 24px;
-		text-align: center;
-		font-weight: bold;
-	}
-
-	p{
-		color: white;
-		font-family: arial;
-		font-size: 16px;
-		padding-right: 9em;
-		padding-left: 9em;
-	}
 	figure{
 
 		margin: 0px 5px 10px 5px;
@@ -71,9 +56,4 @@
 	    margin:0;
 	    padding: 0;
 	}
-}
-
-.bottom{
-
-    margin-top: 5em;
 }
