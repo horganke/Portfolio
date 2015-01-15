@@ -8,11 +8,10 @@
 }
 
 #follow{
-
+    height: 100vh;
     background: #8CB0C6;
-    padding: 5em 3em;
+    padding: 15em 3em;
     .social{
-        background: #4B6AA4;
         height: 245px;
         ul{
             list-style-type: none;
@@ -26,9 +25,9 @@
                     font-size: 8em;
                     margin: 0 8px;
                     display: inline-block;
-                    color: #D0C8D3;
+                    color: #4B6AA4;
                     position: relative;
-                    top: 75px;
+                    top: 50px;
 
                     &:hover{
                         color: white;

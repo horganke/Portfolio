@@ -27,9 +27,9 @@
 
 /* line 31, ../sass/components/_masthead.scss */
 .spin {
-  -webkit-transform: rotateZ(2880deg);
-  -moz-transform: rotateZ(2880deg);
-  transform: rotateZ(2880deg);
+  -webkit-transform: rotateZ(1440deg);
+  -moz-transform: rotateZ(1440deg);
+  transform: rotateZ(1440deg);
 }
 
 /* line 37, ../sass/components/_masthead.scss */
@@ -80,25 +80,6 @@
 #hero {
   background: #2E4164;
 }
-/* line 6, ../sass/components/_hero.scss */
-#hero iframe {
-  padding-left: 5px;
-  zoom: 1.4;
-  margin-bottom: 2px;
-}
-/* line 14, ../sass/components/_hero.scss */
-#hero img {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  padding-top: 4em;
-}
 
 /* line 4, ../sass/components/_about.scss */
 #about {
@@ -108,15 +89,15 @@
 
 /* line 10, ../sass/components/_about.scss */
 #follow {
+  height: 100vh;
   background: #8CB0C6;
-  padding: 5em 3em;
+  padding: 15em 3em;
 }
 /* line 14, ../sass/components/_about.scss */
 #follow .social {
-  background: #4B6AA4;
   height: 245px;
 }
-/* line 17, ../sass/components/_about.scss */
+/* line 16, ../sass/components/_about.scss */
 #follow .social ul {
   list-style-type: none;
   display: block;
@@ -124,33 +105,33 @@
   margin: 10px;
   padding: 0;
 }
-/* line 23, ../sass/components/_about.scss */
+/* line 22, ../sass/components/_about.scss */
 #follow .social ul li {
   display: inline;
 }
-/* line 25, ../sass/components/_about.scss */
+/* line 24, ../sass/components/_about.scss */
 #follow .social ul li i {
   font-size: 8em;
   margin: 0 8px;
   display: inline-block;
-  color: #D0C8D3;
+  color: #4B6AA4;
   position: relative;
-  top: 75px;
+  top: 50px;
 }
-/* line 33, ../sass/components/_about.scss */
+/* line 32, ../sass/components/_about.scss */
 #follow .social ul li i:hover {
   color: white;
   transition: all 0.3s ease-in;
   text-shadow: 1px 0px 20px white;
 }
-/* line 44, ../sass/components/_about.scss */
+/* line 43, ../sass/components/_about.scss */
 #follow h2 {
   margin-bottom: 15px;
   margin-top: 0;
   font-size: 24px;
   font-weight: bold;
 }
-/* line 55, ../sass/components/_about.scss */
+/* line 54, ../sass/components/_about.scss */
 #follow .bottom p {
   text-align: center;
 }
@@ -273,29 +254,29 @@ p {
   left: 100%;
 }
 
-/* line 10, ../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../program files (x86)/scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../program files (x86)/scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -54px;
+  margin-bottom: -38px;
 }
-/* line 18, ../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../../program files (x86)/scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root #root_footer {
-  height: 54px;
+  height: 38px;
 }
 
-/* line 20, ../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../program files (x86)/scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 54px;
+  height: 38px;
 }
 
 /* line 4, ../sass/components/_footer.scss */
@@ -305,7 +286,7 @@ html, body {
 /* line 8, ../sass/components/_footer.scss */
 #footer p {
   color: #777;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 /* line 13, ../sass/components/_footer.scss */
 #footer a {
@@ -409,9 +390,13 @@ html {
 .social .instagram-icon {
   color: #A97D62;
 }
+/* line 41, ../sass/components/_nav.scss */
+.social .linkedin-icon {
+  color: #0274B3;
+}
 
 @media (min-width: 767px) {
-  /* line 45, ../sass/components/_nav.scss */
+  /* line 49, ../sass/components/_nav.scss */
   .navbar {
     color: #ecf0f1;
     padding: 10px 0;
@@ -420,24 +405,90 @@ html {
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
-  /* line 53, ../sass/components/_nav.scss */
+  /* line 57, ../sass/components/_nav.scss */
   .top-nav-collapse {
     padding: 0;
   }
 }
-/* line 59, ../sass/components/_nav.scss */
+/* line 63, ../sass/components/_nav.scss */
 #masthead {
   padding-top: 145px;
   padding-bottom: 16px;
 }
 
-/* line 64, ../sass/components/_nav.scss */
+/* line 68, ../sass/components/_nav.scss */
 #work {
   padding-top: 45px;
   padding-bottom: 60px;
 }
 
-/* line 69, ../sass/components/_nav.scss */
+/* line 73, ../sass/components/_nav.scss */
 #hero {
   padding-top: 45px;
+}
+
+/* line 3, ../sass/components/_resume.scss */
+.resume .fa-download {
+  color: #000;
+  font-size: 56px;
+}
+/* line 9, ../sass/components/_resume.scss */
+.resume #f1_container {
+  position: relative;
+  margin: 20px auto;
+  width: 85px;
+  height: 110px;
+  z-index: 1;
+  perspective: 1000;
+}
+/* line 17, ../sass/components/_resume.scss */
+.resume #f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaaaaa;
+}
+/* line 23, ../sass/components/_resume.scss */
+.resume #f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.7s linear;
+}
+/* line 30, ../sass/components/_resume.scss */
+.resume .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+/* line 36, ../sass/components/_resume.scss */
+.resume .face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: white;
+}
+/* line 46, ../sass/components/_resume.scss */
+.resume h2 {
+  color: white;
+  text-align: left;
+  text-decoration: underline;
+}
+/* line 52, ../sass/components/_resume.scss */
+.resume h3 {
+  color: white;
+  text-align: left;
+  margin-left: 2em;
+}
+/* line 59, ../sass/components/_resume.scss */
+.resume li {
+  color: white;
+  text-align: left;
+  margin-left: 3em;
+}
+/* line 66, ../sass/components/_resume.scss */
+.resume .last {
+  padding-bottom: 50px;
 }

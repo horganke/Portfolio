@@ -1,5 +1,5 @@
 @import "compass/layout/sticky-footer";
-@include sticky-footer(54px);
+@include sticky-footer(38px);
 
 #footer{
 	
@@ -7,7 +7,7 @@
 
     p{
     	color: #777;
-    	padding-top:15px;
+    	padding-top:5px;
     }
 
     a{
