@@ -5,19 +5,16 @@
 
     background: #8CB0C6;
     padding: 15em 3em;
+
 }
 
 #follow{
-    height: 100vh;
     background: #8CB0C6;
-    padding: 15em 3em;
-    .social{
-        height: 245px;
+    padding: 17em 3em;
         ul{
             list-style-type: none;
             display: block;
             text-align: center;
-            margin: 10px;
             padding: 0;
             li{
                 display: inline;
@@ -38,8 +35,6 @@
                 }
             }
         }
-    }
-
     h2{
 
         margin-bottom: 15px;

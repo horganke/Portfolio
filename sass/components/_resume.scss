@@ -1,4 +1,10 @@
-.resume{
+#resume{
+
+	.container{
+		padding: 0px 40px;
+	}
+
+	
 
 	.fa-download{
 
@@ -47,13 +53,16 @@
 		color: white;
 		text-align: left;
 		text-decoration: underline;
+		font-family: "Oswald", sans-serif;
 	}
+
 
 	h3{ 
 
 		color: white;
 		text-align: left;
 		margin-left: 2em;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	li{ 
@@ -61,6 +70,14 @@
 		color: white;
 		text-align: left;
 		margin-left: 3em;
+		font-family: 'Open Sans', sans-serif;
+		margin-bottom: 5px;
+	}
+
+	span{
+
+			font-family: 'Open Sans', sans-serif;
+
 	}
 
 	.last{

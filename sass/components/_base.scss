@@ -1,5 +1,10 @@
 @import "compass/css3";
-@include font-face("Bemio", font-files("bemio.otf"));
+
+
+@font-face {
+    font-family: bemio;
+    src: url(/fonts/Bemio.otf);
+}
 
  body {
   background: #4B6AA4;
@@ -12,8 +17,8 @@ h1{
     font-family: bemio;
     font-size: 3.5em;
     padding-left: 8px;
-    padding-bottom:18px;
-    padding-top:18px
+    padding-bottom: 22px;
+	padding-top: 14px;
 }
 
 p{

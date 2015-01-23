@@ -1,0 +1,197 @@
+/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+      /* Medium Devices, Desktops */
+    @media (max-width : 1199px) and (min-width : 992px) {
+
+    }
+
+     /* Small Devices, Tablets */
+    @media (max-width : 991px) and (min-width : 768px) {
+
+        p{
+            padding-right: 3em;
+            padding-left: 3em;
+        }   
+
+    }
+
+    @media (max-width : 991px){
+
+        #resume{
+            .face.back{
+                transform: none;
+            }
+
+            #f1_container {
+                &:hover #f1_card{
+                transform: none;
+                 box-shadow: none;
+              }
+            }
+
+        }
+        .gallery{
+            figure{
+                figcaption{ 
+                    opacity: 0.8;
+
+                    &:hover{
+
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width : 767px){
+
+        #follow{
+
+            padding: 7em 3em;
+
+            ul{
+                li{
+                    display: block;
+
+                    i{
+                        font-size: 6em;
+                        top: 0;
+                    }
+                }
+            }
+        }
+
+        p{
+
+            padding-right: 0em;
+            padding-left: 0em;
+        }
+
+        #resume{
+            
+            h2{
+                font-size: 28px;
+            }
+
+
+            h3{
+
+                font-size: 18px;
+            }
+
+            span{
+
+                float: none !important;
+                display: block;
+            }
+
+        }
+    }
+
+     /* Extra Small Devices, Phones */ 
+    @media (max-width : 767px) and (min-width : 480px) {
+
+        h1{
+            padding-bottom: 32px;
+            padding-top: 18px;
+        }
+
+        #about{
+
+            padding: 10em 3em;
+
+        }
+
+
+         #header{
+            h1{
+
+                font-size: 3.0em;
+            }
+        }
+
+        #circle{
+
+            img{
+                
+                height: 225px;
+                width: 225px;
+
+            }
+        }
+
+
+    }
+
+     /* Custom, iPhone Retina */ 
+    @media (max-width : 479px) and (min-width : 320px) {
+
+        #about{
+
+            padding: 5em 3em;
+
+        }
+
+        #header{
+            h1{
+
+                font-size: 2.5em;
+            }
+        }
+
+        #circle{
+
+            img{
+                
+                height: 200px;
+                width: 200px;
+
+            }
+        }
+        
+    }
+
+    @media (max-width : 479px){
+
+        p{
+            text-align: left;
+            font-size: 14px;
+        }
+
+    }
+
+     @media (max-width : 320px) {
+
+         #about{
+
+            padding: 5em 3em;
+
+        }
+
+        h1{
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+
+        #header{
+            h1{
+
+                font-size: 2.5em;
+            }
+        }
+
+        #circle{
+
+            img{
+                
+                height: 200px;
+                width: 200px;
+
+            }
+        }
+        
+    }
